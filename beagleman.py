@@ -9,7 +9,6 @@ import sys
 import time
 
 from creds import *
-from hdc1000 import getTemperature
 from pocketsphinx.pocketsphinx import *
 from requests.packages.urllib3.exceptions import *
 from sphinxbase.sphinxbase import *

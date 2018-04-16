@@ -20,7 +20,7 @@ requests.packages.urllib3.disable_warnings(InsecurePlatformWarning)
 
 # Start pulseaudio daemon
 os.system('sudo -H -u debian pulseaudio --start')
-os.system("echo 'connect 43:88:48:B8:62:1A' | bluetoothctl")
+os.system("echo 'connect XX:XX:XX:XX:XX:XX' | bluetoothctl")
 time.sleep(5)
 
 # Set up Notification LEDs
